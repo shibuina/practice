@@ -1,0 +1,15 @@
+S01:Programming Fundamentals with Python:5000000
+S02:Mathematics for Engineering:2000000
+S03:Discrete mathematics:3000000
+S04:Academic Skills for University Success:4000000
+S05:Introduction to Computer Science:1000000
+S06:Computer Organization and Architecture:1500000
+S07:Introduction to Databases:1250000
+S08:Data Structures and Algorithm with Python:3500000
+S09:Communication and In-Group Working Skills:5250000
+S10:Artificial Intelligence:2500000
+S11:Elementary Japanese 1-A1.1:2250000
+S12:AI, DS with Python & SQL:3250000
+S13:Statistics and Probability:1750000
+S14:Mathematics for Machine Learning:3750000
+S15:Deep Learning:3250000
