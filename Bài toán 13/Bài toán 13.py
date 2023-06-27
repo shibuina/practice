@@ -1,7 +1,5 @@
-import random
-
-# tạo dữ liệu trong filex``
 class StudentList():
+    #lấy dữ liệu từ file
     def getfile(self):
         StuList = []
         with open(r'C:\Users\Dell\Desktop\Học\CSD202\practice\Bài toán 13\data.txt','r',encoding= 'utf8') as datafile:
@@ -9,6 +7,7 @@ class StudentList():
                 lines = lines.split("_")
                 StuList.append([lines[0],lines[1]] + [float(lines[i]) for i in range (2,len(lines))]+[(float(lines[2])+float(lines[3]))*2+float(lines[4])])
         return StuList
+    #lấy thông tin HS
     def GetStudentInfo(self,StuList):
         SId = input(f"Nhập số báo danh của học sinh cần tìm:\n")
         for students in StuList:
@@ -17,6 +16,7 @@ class StudentList():
                 print(f"Tên của học sinh là {students[1]}")
                 print(f"Điểm 3 môn Toán, Văn, Anh của học sinh là Toán: {students[2]}, Văn: {students[3]}, Anh: {students[4]}")
                 print(f"Tổng ĐXT của học sinh là: {students[5]}")
+    #Xếp hạng HS
     def RankStudents(self,StuList):
         for i in range(len(StuList)):
             for j in range(len(StuList)):
